@@ -19,7 +19,7 @@ sh 'mkdir p artifacts'
 sh 'cp dev.html ./artifacts/'
 post {
 success {
-/// Archive the generated artifact
+// Archive the generated artifact
 archiveArtifacts artifacts: 'artifacts/*.html', onlyIfSuccessful: true
 // Print a success message if the pipeline completes successfully
 echo 'Pipeline completed successfully!'
