@@ -24,4 +24,3 @@ archiveArtifacts artifacts: 'artifacts/*.html', onlyIfSuccessful: true
 // Print a success message if the pipeline completes successfully
 echo 'Pipeline completed successfully!'
 }
-Dev.
