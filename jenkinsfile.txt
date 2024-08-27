@@ -14,7 +14,6 @@ echo "hello"
 }
 post {
 success {
-archiveArtifacts artifacts: 'artifacts/*.html', onlyIfSuccessful: true
 echo 'Pipeline completed successfully!'
 }
 }
