@@ -8,8 +8,7 @@ echo 'Build and Test successful!'
 }
 stage('Generate Artifact') {
 steps {
-sh 'mkdir p artifacts'
-sh 'cp dev.html ./artifacts/'
+echo "hello"
 }
 }
 }
